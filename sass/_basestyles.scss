@@ -1,0 +1,25 @@
+/*
+
+ import BASE STYLES
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0px auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: $fontFamily1;
+}
+
+.site-logo-container {
+  font-weight: 200;
+  font-size: 2em;
+  padding: 1%;
+}

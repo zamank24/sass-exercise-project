@@ -1,0 +1,107 @@
+/*
+
+ import FOOTER
+
+*/
+
+
+footer {
+  background-color: $accentColor3;
+
+	a {
+  		text-decoration: none;
+  		color: $accentColor4;
+	  }
+	
+	.footer-logo-section p, .copyright-mobile-container p {
+  		font-family: $fontFamily1;
+  		color: $accentColor4;
+  		font-weight: 700;
+  		text-transform: capitalize;
+  		font-size: 12px;
+		}
+	.site-logo-container i {
+  		color: $accentColor;
+  		font-size: 25px;
+		}
+	.footer-link-section {
+	}
+
+}
+
+
+.footer-link-section {
+}
+
+.link-container ul{
+  padding-left: 0px;
+
+	 h4 {
+  		font-family: $fontFamily2;
+  		font-size: 15px;
+ 		margin-bottom: 20px;
+  		margin-top: 0px;
+  		line-height: 1.6em;
+  		color: $accentColor5;
+  		font-weight: 700;
+	}
+
+	li {
+  		font-family: $fontFamily1;
+  		color: $accentColor4;
+  		font-weight: 700;
+  		text-transform: capitalize;
+  		text-decoration: none;
+  		font-size: 12px;
+  		list-style: none;
+  		line-height: 2.5;
+  		letter-spacing: 2px;
+	   }
+
+	a {
+  		text-decoration: none;
+	  }
+
+	a:hover {
+  		color: $accentColor;
+	}
+}
+
+
+.social li {
+  display: inline-block;
+
+  	i {
+  		font-size: 20px;
+  		color: $accentColor4;
+	  }
+		i:hover {
+  			color: $accentColor;
+			}
+}
+
+
+/*
+
+visibility classes
+
+*/
+
+.footer-logo-section {
+  display: block;
+}
+
+.copyright-mobile-container {
+  display: none;
+}
+
+
+@media (max-width: 1040px) {
+  .footer-logo-section {
+    display: none;
+  }
+
+  .copyright-mobile-container {
+    display: block;
+  }
+}

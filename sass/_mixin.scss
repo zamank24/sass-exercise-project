@@ -1,0 +1,25 @@
+/*
+
+ import MIXIN
+
+*/
+
+@mixin background1 {
+	background-position: 50% 50%;
+	  -webkit-background-size: cover;
+		 -moz-background-size: cover;
+		   -o-background-size: cover;
+			  background-size: cover;
+}
+
+@mixin background2 {
+	background-image: linear-gradient( 270deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7) ), url("../img/phone.jpg");
+}
+
+@mixin background3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
+}
+
+@mixin background4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+}
