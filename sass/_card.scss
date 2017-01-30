@@ -72,11 +72,11 @@ CARD
 	  }
 	a:hover {
   			color: $primaryColor;
- 			background-color: $primaryLight;
+ 			  background-color: $primaryLight;
   			background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
 		}
 }
 
-.card-img-1, .card-img-2, .card-img-3, .card-img-4, .card-img-5, .card-img-6 { 
+.card-img-1, .card-img-2, .card-img-3, .card-img-4, .card-img-5, .card-img-6 {
 	@include background2;
 }

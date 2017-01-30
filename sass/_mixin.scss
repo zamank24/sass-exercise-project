@@ -23,3 +23,63 @@
 @mixin background4 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
 }
+
+@mixin mediaquery1 {
+  /*
+
+  visibility classes
+
+  */
+
+  .desktop-nav-visibility {
+    display: block;
+  }
+
+  .mobile-nav-visibility {
+    display: none;
+  }
+
+  @media (max-width: 960px) {
+    nav a {
+      padding: 0px 20px;
+    }
+  }
+
+  @media (max-width: 860px) {
+
+    .desktop-nav-visibility {
+      display: none;
+    }
+
+    .mobile-nav-visibility {
+      display: block;
+    }
+  }
+}
+
+@mixin mediaquery2 {
+  /*
+
+  visibility classes
+
+  */
+
+  .footer-logo-section {
+    display: block;
+  }
+
+  .copyright-mobile-container {
+    display: none;
+  }
+
+
+  @media (max-width: 1040px) {
+    .footer-logo-section {
+      display: none;
+    }
+
+    .copyright-mobile-container {
+      display: block;
+    }
+  }
+}
